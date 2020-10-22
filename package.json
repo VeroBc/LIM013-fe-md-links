@@ -1,0 +1,41 @@
+{
+  "name": "mdlinks-verobc",
+  "version": "1.0.0",
+  "description": "Links valitation of MD Files",
+  "main": "src/cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "md": "src/cli.js"
+  },
+  "scripts": {
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeroBc/LIM013-fe-md-links.git"
+  },
+  "keywords": ["markdown", "links"],
+
+  "author": "Veronica Borda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeroBc/LIM013-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/VeroBc/LIM013-fe-md-links#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@types/marked": "^1.1.0",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "marked": "^1.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
