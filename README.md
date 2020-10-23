@@ -31,7 +31,7 @@ Pseudo code or flowchart with the algorithm that solve the validation:
 
 ## 4. Install
 
-npm install --global <github-user>/mdlinks-verobc
+npm i mdlinks-verobc
 
 
 ### Declaring program variable
